@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[HomeVC tableView:numberOfRowsInSection:]:HomeVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[filterMaxPriceArray count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeVC clickHomeButton:]:HomeVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "height_wantlet_tableview">
+            </PersistentString>
+            <PersistentString
+               value = "height_product_collectview">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

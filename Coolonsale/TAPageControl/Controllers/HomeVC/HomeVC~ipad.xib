@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC">
+            <connections>
+                <outlet property="btn_all" destination="QbT-cZ-rUn" id="bFy-Va-D46"/>
+                <outlet property="btn_bags" destination="arb-Xy-j2e" id="aDT-F1-QI5"/>
+                <outlet property="btn_bot_account" destination="4mz-JT-QNB" id="FSD-dh-pPS"/>
+                <outlet property="btn_bot_home" destination="aL0-PU-0E6" id="UqQ-DM-LcL"/>
+                <outlet property="btn_bot_other" destination="Cc9-wf-WJP" id="UlD-fm-X1R"/>
+                <outlet property="btn_bot_search" destination="jXJ-Ux-qhE" id="qUT-KS-OLz"/>
+                <outlet property="btn_shoes" destination="9mp-C4-cjd" id="Qr3-L0-57R"/>
+                <outlet property="btn_top_finds_ipad" destination="PNl-g2-HCi" id="UJ0-Hc-aM2"/>
+                <outlet property="btn_wantlet_ipad" destination="pFs-cH-sYc" id="hjB-6K-XZz"/>
+                <outlet property="collectView" destination="bry-Q4-XPC" id="wFd-Ia-yUg"/>
+                <outlet property="img_selected_arrow_topfinds" destination="qiH-3g-Rrd" id="qcF-W5-PJq"/>
+                <outlet property="img_selected_arrow_wantlet" destination="C2A-K1-Soz" id="NvZ-ab-k1e"/>
+                <outlet property="scrollView" destination="jp9-XW-oDc" id="yNO-ZJ-RK0"/>
+                <outlet property="scrollview_filteritems" destination="ZgU-YZ-Prq" id="qe5-1c-aHa"/>
+                <outlet property="tablelist_filtertype" destination="cPD-Sq-1gU" id="SjV-0m-o1b"/>
+                <outlet property="tablelist_maxprice" destination="NIv-R6-ubF" id="caq-oL-qr3"/>
+                <outlet property="tablelist_priceoff" destination="2ra-tQ-80F" id="7jh-a6-Glo"/>
+                <outlet property="tablelist_sort" destination="FEf-h9-SMv" id="SoI-rI-7jw"/>
+                <outlet property="tablelist_wantlet" destination="r0h-gL-Uez" id="TyE-cm-s6P"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="QZ3-R0-ief"/>
+                <outlet property="view_main_content" destination="GXH-b3-FiT" id="P3l-qG-c89"/>
+                <outlet property="view_sort_and_view_filter_ipad" destination="MMR-cI-LSZ" id="FlX-by-fv9"/>
+                <outlet property="view_topfinds" destination="nD9-ea-gy8" id="GJr-yw-WWJ"/>
+                <outlet property="view_wantlets" destination="J8h-iN-570" id="q3o-CB-UUt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="O4I-ff-8cv">
+                    <rect key="frame" x="0.0" y="0.0" width="167" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sidebar_ipad.png" id="RPI-VL-hio">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="768"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aL0-PU-0E6">
+                            <rect key="frame" x="29" y="37" width="38" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="btn_home_on_ipad.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jXJ-Ux-qhE">
+                            <rect key="frame" x="27" y="212" width="43" height="41"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="btn_search_ipad.png"/>
+                        </button>
+                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.png" id="Zd9-GQ-pA3">
+                            <rect key="frame" x="31" y="92" width="119" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.png" id="GZu-Di-3pI">
+                            <rect key="frame" x="34" y="137" width="114" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.png" id="BkT-Sn-L7J">
+                            <rect key="frame" x="34" y="181" width="114" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PNl-g2-HCi">
+                            <rect key="frame" x="53" y="106" width="71" height="19"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="label_topfinds_on_ipad.png"/>
+                            <connections>
+                                <action selector="clickTopFindsButton:" destination="-1" eventType="touchUpInside" id="7Wb-sS-Snv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pFs-cH-sYc">
+                            <rect key="frame" x="53" y="152" width="68" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="label_wantlets_ipad.png"/>
+                            <connections>
+                                <action selector="clickWantletButton:" destination="-1" eventType="touchUpInside" id="5I7-QM-rf3"/>
+                            </connections>
+                        </button>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selected_arrow_ipad.png" id="C2A-K1-Soz">
+                            <rect key="frame" x="150" y="140" width="17" height="43"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4mz-JT-QNB">
+                            <rect key="frame" x="31" y="301" width="35" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="btn_like_ipad.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Cc9-wf-WJP">
+                            <rect key="frame" x="31" y="387" width="35" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="btn_others_ipad.png"/>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selected_arrow_ipad.png" id="qiH-3g-Rrd">
+                            <rect key="frame" x="150" y="94" width="17" height="43"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="GXH-b3-FiT">
+                    <rect key="frame" x="175" y="0.0" width="849" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="nD9-ea-gy8">
+                            <rect key="frame" x="0.0" y="0.0" width="849" height="768"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="jp9-XW-oDc">
+                                    <rect key="frame" x="0.0" y="115" width="849" height="653"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" id="bry-Q4-XPC">
+                                            <rect key="frame" x="0.0" y="10" width="849" height="643"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="0eq-wL-wFG">
+                                                <size key="itemSize" width="170" height="222"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="50"/>
+                                            </collectionViewFlowLayout>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="c2U-bs-3Eo"/>
+                                                <outlet property="delegate" destination="-1" id="tD2-T4-2iT"/>
+                                            </connections>
+                                        </collectionView>
+                                    </subviews>
+                                </scrollView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9mp-C4-cjd">
+                                    <rect key="frame" x="228" y="31" width="102" height="39"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_shoes_ipad.png"/>
+                                    <connections>
+                                        <action selector="clickShoes:" destination="-1" eventType="touchUpInside" id="i6G-eF-wJD"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QbT-cZ-rUn">
+                                    <rect key="frame" x="8" y="31" width="102" height="39"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_all_on_ipad.png"/>
+                                    <connections>
+                                        <action selector="clickAll:" destination="-1" eventType="touchUpInside" id="j12-5Z-mz9"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="arb-Xy-j2e">
+                                    <rect key="frame" x="117" y="31" width="102" height="39"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_bags_ipad.png"/>
+                                    <connections>
+                                        <action selector="clickBags:" destination="-1" eventType="touchUpInside" id="cOW-4O-gXu"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WzZ-lT-bS5">
+                                    <rect key="frame" x="683" y="31" width="158" height="39"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_sortandfilter_ipad.png"/>
+                                    <connections>
+                                        <action selector="clickSortAndFilterButton:" destination="-1" eventType="touchUpInside" id="Ce9-TQ-85j"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" id="J8h-iN-570">
+                            <rect key="frame" x="0.0" y="0.0" width="849" height="768"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="700" sectionHeaderHeight="28" sectionFooterHeight="28" id="r0h-gL-Uez">
+                                    <rect key="frame" x="0.0" y="65" width="826" height="703"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="dTT-T4-3Dn"/>
+                                        <outlet property="delegate" destination="-1" id="oio-pJ-Bjf"/>
+                                    </connections>
+                                </tableView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5GA-uC-X2W">
+                                    <rect key="frame" x="732" y="22" width="72" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_share_ipad.png"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" id="MMR-cI-LSZ">
+                            <rect key="frame" x="-8" y="0.0" width="857" height="768"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="3dP-j5-MeL">
+                                    <rect key="frame" x="8" y="0.0" width="849" height="62"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pgh-ng-04f">
+                                            <rect key="frame" x="548" y="17" width="103" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button" image="btn_rest.png"/>
+                                            <connections>
+                                                <action selector="clickResetFiltersButton:" destination="-1" eventType="touchUpInside" id="plV-KN-bPA"/>
+                                                <action selector="clickResetOnFilterSortIpad:" destination="-1" eventType="touchUpInside" id="Hho-Rw-GJ9"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VkE-Ph-X4t">
+                                            <rect key="frame" x="666" y="17" width="127" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button" image="btn_apply_filter_on_ipad.png"/>
+                                            <connections>
+                                                <action selector="clickApplyFiltersButtonIpad:" destination="-1" eventType="touchUpInside" id="dek-fk-Fsg"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.90980392160000001" green="0.92549019610000005" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.png" id="fh8-HE-p6L">
+                                    <rect key="frame" x="8" y="122" width="849" height="3"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v_line.png" id="MuG-pn-hUL">
+                                    <rect key="frame" x="429" y="125" width="1" height="646"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="label_sort.png" id="kUv-SX-hOe">
+                                    <rect key="frame" x="42" y="88" width="49" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="label_filter.png" id="GIt-zg-zzx">
+                                    <rect key="frame" x="447" y="89" width="49" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="FEf-h9-SMv">
+                                    <rect key="frame" x="22" y="158" width="393" height="557"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="6x4-Dp-set"/>
+                                        <outlet property="delegate" destination="-1" id="C5k-aG-PbC"/>
+                                    </connections>
+                                </tableView>
+                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ZgU-YZ-Prq">
+                                    <rect key="frame" x="438" y="133" width="411" height="627"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" id="Ab9-hH-YIQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="411" height="5000"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" id="cPD-Sq-1gU">
+                                                    <rect key="frame" x="8" y="8" width="393" height="167"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="-1" id="3n8-6k-iGp"/>
+                                                        <outlet property="delegate" destination="-1" id="Q2g-au-D4c"/>
+                                                    </connections>
+                                                </tableView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2il-8F-hww">
+                                                    <rect key="frame" x="26" y="208" width="93" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input_addsize.png" id="RVy-uD-Xmx">
+                                                    <rect key="frame" x="119" y="201" width="265" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" id="N11-ii-SR3">
+                                                    <rect key="frame" x="131" y="207" width="238" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                </textField>
+                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" id="NIv-R6-ubF">
+                                                    <rect key="frame" x="10" y="273" width="393" height="261"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="-1" id="UHF-Bw-Jqm"/>
+                                                        <outlet property="delegate" destination="-1" id="Q1P-Ik-Jmx"/>
+                                                    </connections>
+                                                </tableView>
+                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" id="2ra-tQ-80F">
+                                                    <rect key="frame" x="10" y="571" width="393" height="285"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="-1" id="HuN-Cr-pLb"/>
+                                                        <outlet property="delegate" destination="-1" id="sup-Qn-kqu"/>
+                                                    </connections>
+                                                </tableView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                </scrollView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1180" y="420"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_all_on_ipad.png" width="173" height="67"/>
+        <image name="btn_apply_filter_on_ipad.png" width="233" height="67"/>
+        <image name="btn_bags_ipad.png" width="175" height="69"/>
+        <image name="btn_home_on_ipad.png" width="68" height="64"/>
+        <image name="btn_like_ipad.png" width="53" height="48"/>
+        <image name="btn_others_ipad.png" width="52" height="48"/>
+        <image name="btn_rest.png" width="428" height="167"/>
+        <image name="btn_search_ipad.png" width="64" height="64"/>
+        <image name="btn_share_ipad.png" width="143" height="67"/>
+        <image name="btn_shoes_ipad.png" width="175" height="69"/>
+        <image name="btn_sortandfilter_ipad.png" width="263" height="67"/>
+        <image name="input_addsize.png" width="894" height="144"/>
+        <image name="label_filter.png" width="137" height="54"/>
+        <image name="label_sort.png" width="113" height="54"/>
+        <image name="label_topfinds_on_ipad.png" width="118" height="33"/>
+        <image name="label_wantlets_ipad.png" width="108" height="33"/>
+        <image name="line.png" width="749" height="3"/>
+        <image name="selected_arrow_ipad.png" width="29" height="75"/>
+        <image name="sidebar_ipad.png" width="262" height="1536"/>
+        <image name="v_line.png" width="1" height="749"/>
+    </resources>
+</document>
